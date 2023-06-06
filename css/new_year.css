@@ -1,0 +1,171 @@
+* {
+	font-family: "Jura";
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+.newyearcontainer1 {
+	background: #D4F9F2;
+	width: 1200px;
+	height: 705px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.newyearsect1 {
+	display: inline-block;
+	float: left;
+}
+.ice_skating {
+	display: inline-block;
+	float: right;
+}
+.newyeartitle1 {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 118px;
+	margin-top: 92px;
+}
+.newyearbutton1 {
+	width: 360px;
+	height: 35px;
+	background: #FF1C52;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	margin-top: 33px;
+}
+.newyearbutton1:hover {
+	background: white;
+	color: #006AA7;
+}
+
+/*Новорічні побажання світу та родині*/
+
+.newyearcontainer2 {
+	width: 1160px;
+	height: 350px;
+	background: #FF1C52;
+	padding: 40px;
+	margin: 0 auto;
+}
+.newyeartitle2 {
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.newyearsection {
+	display: inline-block;
+	float: left;
+	margin-right: 18px;
+	width: 230px;
+	height: 220px;
+	padding: 15px;	
+}
+.newyearsection:nth-child(2) {
+	margin-left: 35px;
+}
+.newyearsection:nth-child(even) {
+	background: #258A86;
+}
+.newyearsection:nth-child(odd) {
+	background: white;
+}
+.sectiontitle {
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.sectiontext {
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+.textsectodd {
+	color: black;
+}
+
+/*Новорічні побажання Україні та собі*/
+
+.newyearcontainer3 {
+	width: 1160px;
+	height: 350px;
+	background: #D4F9F2;
+	padding: 40px;
+	margin: 0 auto;
+}
+.newyeartitle3 {
+	color: #258A86;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.newyearsection2 {
+	display: inline-block;
+	float: left;
+	margin-right: 18px;
+	width: 230px;
+	height: 220px;
+	padding: 15px;	
+}
+.newyearsection2:nth-child(2) {
+	margin-left: 35px;
+}
+.newyearsection2:nth-child(even) {
+	background: white;
+}
+.newyearsection2:nth-child(odd) {
+	background: #F9C00D;
+}
+.newyearimage1 {
+	width: 58px;
+	height: 58px;
+}
+.sectiontitle2 {
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.sectiontext2 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*Стиль "Підвалу" сайту*/
+
+.footer {
+	width: 1240px;
+	height: 100px;
+	background: #006AA7;
+	margin: 0 auto;
+}
+.footerwrapper {
+	text-align: center;
+}
+.footertext {
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+.footerimage {
+	width: 60px;
+	height: 60px;
+	margin-top: 15px;
+}
+
+/*Стрілка вгору*/
+
+.arrow_top {
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	width: 100px;
+	height: 100px;
+}
