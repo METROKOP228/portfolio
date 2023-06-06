@@ -50,6 +50,7 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 119.62%;
+	text-decoration: none;
 }
 
 .header-item:hover {
@@ -57,6 +58,7 @@ body {
 	font-size: 14px;
 	line-height: 119.62%;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .header-button {
@@ -74,11 +76,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 .header-button:hover {
 	background: #FFA800;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 
@@ -145,11 +149,13 @@ body {
 	margin-top: 40px;
 	margin-left: 20px;
 	box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
+	text-decoration: none;
 }
 
 .block1-button:hover {
 	background: rgba(100, 226, 205, 0.5);
 	box-shadow: 0 0 0 15px #64E2CD;
+	cursor: pointer;
 }
 
 .circle {
@@ -309,6 +315,11 @@ body {
 	color: #2F80ED;
 	text-decoration: underline dashed #2F80ED;
 	margin-top: 55px;
+}
+
+.see-program:hover {
+	cursor: pointer;
+	font-size: 20px;
 }
 
 
@@ -613,6 +624,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 .ct-button:hover {
@@ -656,7 +668,7 @@ body {
 
 
 .footer {
-	max-width: 1440px;
+	width: 1440px;
 	height: 260px;
 	margin: 0 auto;
 	background: #2F80ED;
@@ -682,18 +694,17 @@ body {
 	justify-content: space-between;
 }
 
-.if {
-	font-weight: 700;
-}
-
-.if, .zp, .kr {
+.f {
 	font-size: 14px;
 	line-height: 119.62%;
 	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 400;
 }
 
-.zp, .kr {
-	font-weight: 400;
+.f:hover {
+	font-weight: 900;
+	cursor: pointer;
 }
 
 .soc-networks {
@@ -717,6 +728,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-decoration: none;
 }
 
 .order-cite:hover {
